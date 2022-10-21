@@ -1,6 +1,6 @@
 from tkinter import messagebox
 
-# myArea takes 5 arguments and gives us area of 2D shapes
+# myArea takes 6 arguments and gives us area of 2D shapes
 
 
 def myArea(name, length, breadth, height, radius):
@@ -13,6 +13,8 @@ def myArea(name, length, breadth, height, radius):
         return(0.5*breadth*height)
     elif name == "circle":
         return(3.14*radius**2)
+    elif name== "parallelogram":
+        return(breadth*height)
     else:
         return(-1)
 
